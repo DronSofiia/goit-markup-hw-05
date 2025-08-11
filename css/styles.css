@@ -702,14 +702,11 @@ p {
 #user-privacy:checked + .checkbox-text > .checkbox-custum{
     background-color: var(--color-ocean);
     border: none;
+    fill: var(--color-cloud);
 }
 
 #user-privacy:checked+.checkbox-text>.checkbox-custum svg{
     opacity: 1;
-}
-
-#user-privacy:checked+.checkbox-text>.checkbox-custum svg{
-    fill: var(--color-cloud);
 }
 
 .checkbox-text{
