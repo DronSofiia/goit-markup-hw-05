@@ -475,6 +475,7 @@ p {
     line-height: 2;
     letter-spacing: 0.04em;
     color: var(--color-white);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input::placeholder{
@@ -501,6 +502,7 @@ p {
     justify-content: center;
     border: none;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-form{
     fill:var(--color-cloud);
